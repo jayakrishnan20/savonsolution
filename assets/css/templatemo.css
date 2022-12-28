@@ -107,14 +107,20 @@ p, a {font-weight: 400;}
   transition: .5s;
   cursor: pointer;
 }
+.card-desc {
+  display: none;
+}
 .recent-work .recent-work-vertical:hover {
   background-position: 0% 0%;
   transition: .5s;
 }
 .recent-work .recent-work-vertical:hover div.recent-work-content {
-  top: 50%;
+  top: 25%;
   margin-top: -2.5em;
   position: absolute;
+}
+.recent-work .recent-work-vertical:hover div.card-desc {
+  display: block;
 }
 .recent-work .recent-work-vertical:hover * {
   color: white;
